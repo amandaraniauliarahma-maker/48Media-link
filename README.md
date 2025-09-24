@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>48Media.Update - Tautan</title>
+    <style>
+        /* CSS Starts Here */
+        :root {
+            --primary-color: #ffffff;
+            --secondary-color: #f0f0f0;
+            --accent-color: #ff0000;
+            --text-color: #2c3e50;
+            --bg-start: #485461;
+            --bg-end: #28313b;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif; /* Font modern yang mudah dibaca */
+            background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(253, 253, 253, 0.082); /* Efek kaca transparan */
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--accent-color);
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-picture:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .profile-name {
+            font-size: 2em;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .description {
+            font-size: 1.1em;
+            color: var(--secondary-color);
+            margin-top: 8px;
+            margin-bottom: 30px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Jarak antar tombol */
+        }
+
+        .link-button {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 12px;
+            font-size: 1.1em;
+            font-weight: 600;
+            display: block;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-button:hover {
+            transform: translateY(-5px) scale(1.02);
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            box-shadow: 0 6px 12px rgba(255, 0, 43, 0.356);
+        }
+
+        .social-icons {
+            margin-top: 40px;
+        }
+
+        .social-icon {
+            color: var(--secondary-color);
+            font-size: 2em; /* Ukuran ikon */
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: var(--accent-color);
+            transform: scale(1.2);
+        }
+
+        footer {
+            margin-top: 30px;
+            color: var(--secondary-color);
+            font-size: 0.9em;
+        }
+        
+        /* Font Awesome CDN untuk ikon sosial media */
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+        /* Google Fonts CDN untuk font Poppins */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <img src="img/48media jpg.jpg" alt="Gambar Profil" class="profile-picture" id="profilePic">
+        <h1 class="profile-name">48Media.Update</h1>
+        <p class="description">Join agar kalian lebih update tentang JKT48!</p>
+
+  <div class="links-container">
+    <a href="https://x.com/48mediaupdate?t=akEWYHj2bMVlFfvvZEJwFw&s=09" target="_blank" class="link-button">X</a>
+    
+    <a href="https://www.instagram.com/48media.update/" target="_blank" class="link-button">Instagram</a>
+    
+    <a href="https://www.tiktok.com/@48media.update?_t=ZS-8zz2V65cLhZ&_r=1" target="_blank" class="link-button">Tiktok</a>
+    
+    <a href="https://whatsapp.com/channel/0029VajGzStH5JLsbqWhDk2b" target="_blank" class="link-button">Saluran Whatsapp</a>
+    
+    <a href="https://saweria.co/Someonetotalkyou" target="_blank" class="link-button">Donasi & Dukungan</a>
+    
+</div>
